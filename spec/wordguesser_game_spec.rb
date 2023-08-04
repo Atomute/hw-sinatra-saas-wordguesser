@@ -86,7 +86,7 @@ describe WordGuesserGame do
     end
   end
 
-  describe 'displayed word with guesses' , :pending => true do
+  describe 'displayed word with guesses' do
     before :each do
       @game = WordGuesserGame.new('banana')
     end
@@ -104,7 +104,7 @@ describe WordGuesserGame do
     end
   end
 
-  describe 'game status' , :pending => true do
+  describe 'game status' do
     before :each do 
       @game = WordGuesserGame.new('dog')
     end
